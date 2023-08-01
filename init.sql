@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS goexpert;
+USE goexpert;
+CREATE TABLE exchanges (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  cotacao VARCHAR(255)
+);
